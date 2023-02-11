@@ -10,7 +10,7 @@ docker run -d -p 8000:80 --name web php:7.4-apache
 
 ![](assets/captura1.PNG)
 
-· Colocar en el directorio raíz del servicio web ( `/var/www/html` ) un sitio web donde figure el nombre de los componentes del grupo 
+· Colocar en el directorio raíz del servicio web ( `/var/www/html` ) un sitio web donde figure el nombre de los componentes del grupo.
 
 ```bash
 docker exec -it 6188acefd7a0 bash
